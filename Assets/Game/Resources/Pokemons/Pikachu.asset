@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe57e277da2f02d45beb29850d413079, type: 3}
+  m_Name: Pikachu
+  m_EditorClassIdentifier: 
+  name: Pikachu
+  description: 
+  frontSprite: {fileID: 21300000, guid: ecb4102e4a4454e468d31d6095cb8cca, type: 3}
+  backSprite: {fileID: 21300000, guid: c9348d4cb331ce9479abafe289bdd88a, type: 3}
+  type1: 4
+  type2: 0
+  maxHp: 35
+  attack: 55
+  defense: 40
+  spAttack: 50
+  spDefense: 50
+  speed: 90
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: afa4602b2f8eadf4a93306f1a9a08c97, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b6f8bdb16c6501149b71de4a8b836f45, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 43c6040aa31260c44a9ca444266c9614, type: 2}
+    level: 10

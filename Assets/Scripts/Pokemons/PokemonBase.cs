@@ -89,6 +89,13 @@ public enum PokemonType
         None, Normal, Fire, Water, Eletric, Grass, Ice, Fighting, Poison, Ground, Flying, Phychic, Bug, Rock, Ghost, Dragon
     }
 
+public enum Stat
+{
+    Attack, Defense, SpAttack, SpDefense, Speed, 
+    // not actual stats
+    Accuracy, Evasion
+}
+
 public class TypeChart
 {
     static float[][] chart = 
