@@ -55,10 +55,9 @@ public class ConditionsDB
                         pokemon.StatusChanges.Enqueue($"{pokemon.Base.Name}'s paralyzed and can't move");
                         return false;
                     }
-                    else
-                    {
-                        return true;
-                    }
+                    
+                    return true;
+                    
                     
                 }
             }
@@ -128,7 +127,7 @@ public class ConditionsDB
                 {
                     //Confused for 1-4 turns
                     pokemon.VolatileStatusTime = Random.Range(1, 5);
-                    Debug.Log($"Will be confused for {pokemon.StatusTime} moves");
+                    Debug.Log($"Will be confused for {pokemon.VolatileStatusTime} moves");
                 },
                 OnBeforeMove = (Pokemon pokemon) =>
                 {
@@ -161,6 +160,6 @@ public class ConditionsDB
 
 public enum ConditionID
 {
-    none, psn, brn, slp, par, frz,
+    none, psn, brn, par, frz, slp,
     confusion
 }
