@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConditionsDB 
+public class ConditionsDB
 {
     public static void Init()
     {
@@ -55,10 +55,10 @@ public class ConditionsDB
                         pokemon.StatusChanges.Enqueue($"{pokemon.Base.Name}'s paralyzed and can't move");
                         return false;
                     }
-                    
+
                     return true;
-                    
-                    
+
+
                 }
             }
         },
@@ -84,7 +84,7 @@ public class ConditionsDB
 
                 }
             }
-            
+
         },
         {
             ConditionID.slp,
@@ -109,9 +109,9 @@ public class ConditionsDB
 
                     pokemon.StatusTime--;
                     pokemon.StatusChanges.Enqueue($"{pokemon.Base.Name} is sleeping");
-                    
+
                     return false;
-                    
+
                 }
             }
         },
@@ -155,6 +155,19 @@ public class ConditionsDB
             }
         }
     };
+
+    public static float GetStatusBonus(Condition condition)
+    {
+        if (condition == null)
+            return 1f;
+        else if (condition.Id == ConditionID.slp || condition.Id == ConditionID.frz)
+            return 2f;
+        else if (condition.Id == ConditionID.par || condition.Id == ConditionID.psn || condition.Id == ConditionID.brn)
+            return 1.5f;
+
+        return 1f;
+
+    }
 
 }
 

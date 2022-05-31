@@ -1761,7 +1761,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -582300373
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -3018,7 +3018,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1900382377
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &1033997536
@@ -3613,8 +3613,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wildPokemons:
-  - _base: {fileID: 11400000, guid: 1be55a253afbadd4c9eb8cd64d1760fd, type: 2}
-    level: 8
+  - _base: {fileID: 11400000, guid: 6a93771a79d18684a93d41e88856aa6a, type: 2}
+    level: 3
+  - _base: {fileID: 11400000, guid: 6a93771a79d18684a93d41e88856aa6a, type: 2}
+    level: 5
 --- !u!1 &1222406406
 GameObject:
   m_ObjectHideFlags: 0
@@ -3860,6 +3862,7 @@ MonoBehaviour:
   dialogBox: {fileID: 780253856}
   playerImage: {fileID: 555324088}
   trainerImage: {fileID: 1383601626}
+  pokeballSprite: {fileID: 8923631820887917935, guid: 862cc6637d93c3e40a5abe49dd6bd01b, type: 3}
 --- !u!1 &1295980018
 GameObject:
   m_ObjectHideFlags: 0
@@ -12331,7 +12334,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -485389077
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -751262528, guid: 5a61f09d4f18cfe4b98e91151c906e4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12750,7 +12753,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -485389077
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -751262528, guid: 5a61f09d4f18cfe4b98e91151c906e4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12833,8 +12836,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -582300373
-  m_SortingLayer: 4
+  m_SortingLayerID: -1105605361
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 646105005, guid: 3ae12697ae504414bbf0797ea36dfddd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12938,7 +12941,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -485389077
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 7152930139536384079, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12990,8 +12993,6 @@ MonoBehaviour:
     level: 20
   - _base: {fileID: 11400000, guid: 338ae91c219bc0247ab2081c1c6b1603, type: 2}
     level: 15
-  - _base: {fileID: 11400000, guid: 1be55a253afbadd4c9eb8cd64d1760fd, type: 2}
-    level: 10
 --- !u!114 &1746916461
 MonoBehaviour:
   m_ObjectHideFlags: 0
