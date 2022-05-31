@@ -80,7 +80,6 @@ public class MoveEffects
     {
         get { return boosts; }
     }
-
     public ConditionID Status
     {
         get { return status; }
