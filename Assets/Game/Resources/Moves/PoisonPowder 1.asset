@@ -17,9 +17,15 @@ MonoBehaviour:
   type: 8
   power: 0
   accuracy: 100
+  alwaysHits: 0
   pp: 20
+  priority: 0
   category: 2
   effects:
-    boosts: []
+    boosts:
+    - stat: 0
+      boost: 0
     status: 1
+    volatileStatus: 0
+  secondaryEffects: []
   target: 0
