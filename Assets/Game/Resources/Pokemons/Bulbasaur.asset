@@ -18,12 +18,15 @@ MonoBehaviour:
   backSprite: {fileID: 21300000, guid: 494edd7c50cd8a24ba24a0e973c7481e, type: 3}
   type1: 5
   type2: 8
+  catchRate: 255
   maxHp: 45
   attack: 49
   defense: 49
   spAttack: 65
   spDefense: 65
   speed: 45
+  expYield: 300
+  growthRate: 1
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: afa4602b2f8eadf4a93306f1a9a08c97, type: 2}
     level: 1
